@@ -305,13 +305,13 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    Q[Agent Query<br/>"What blocked the<br/>Acme deal last week?"]
+    Q[Agent Query<br/>What blocked the<br/>Acme deal last week?]
 
     subgraph "Hybrid Retrieval"
         direction TB
-        SEM[Semantic Search<br/>Vector similarity<br/>🔷 GPU-accelerated]
+        SEM[Semantic Search<br/>Vector similarity<br/>GPU-accelerated]
         GRAPH[Graph Traversal<br/>Structured relationships<br/>Multi-hop]
-        FUSE[Fusion & Reranking<br/>🔷 GPU reranker model]
+        FUSE[Fusion and Reranking<br/>GPU reranker model]
     end
 
     CTX2[Assembled Context<br/>Window]
